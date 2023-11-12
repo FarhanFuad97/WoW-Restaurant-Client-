@@ -4,7 +4,8 @@ const Navbar = () => {
    const navoption = <>
    <li><a>Item 1</a></li>
     <li><a>Item 3</a></li>
-   
+    <li><a>Item 3</a></li>
+    <li><a>Item 3</a></li>
    
    </>
 
@@ -21,7 +22,7 @@ const Navbar = () => {
     </div>
     <a className="btn btn-ghost normal-case text-xl">WoW Restaurent</a>
   </div>
-  <div className="navbar-center hidden lg:flex">
+  <div className="navbar-center hidden text-white lg:flex">
     <ul className="menu menu-horizontal px-1">
       {navoption}
     </ul>
