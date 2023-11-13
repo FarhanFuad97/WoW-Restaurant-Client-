@@ -7,7 +7,10 @@ import img3 from '../../assets/home/03.png';
 import img5 from '../../assets/home/05.png';
 const Banner = () => {
     return (
-        <Carousel className="text-center">
+        <Carousel className="text-center"
+        showStatus={false}
+       
+        >
         <div>
             <img src={img1} />
            
